@@ -1,7 +1,7 @@
 import crossroads from 'crossroads'
 import homeController from './controllers/homeController'
 import llamarPersonajes  from './controllers/personajesLista'
-import guardarSiguientesPersonajes from './controllers/personajesLista'
+import guardados from './controllers/personajesGuardados'
 
 				
 			crossroads.addRoute('/', function () {
@@ -12,7 +12,7 @@ import guardarSiguientesPersonajes from './controllers/personajesLista'
 				$('#root').load('./partials/personajes.html', llamarPersonajes)
 			})
 			crossroads.addRoute('#/guardados', function () {
-				$('#root').load('./partials/guardados.html')
+				$('#root').load('./partials/guardados.html', guardados )
 			})
 			
 			// En cada cambio del # va a verificar las rutas
