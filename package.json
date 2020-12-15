@@ -14,7 +14,7 @@
   "dependencies": {
     "bootstrap": "^4.1.2",
     "crossroads": "^0.12.2",
-    "ecstatic": "^3.3.0",
+    "ecstatic": "^4.1.4",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3"
   },
